@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,7 +31,9 @@
             placeholder="Search for luxury items..."
             aria-label="Search for luxury items"
           />
-          <button type="submit" aria-label="search"><i class="fas fa-search"></i></button>
+          <button type="submit" aria-label="search">
+            <i class="fas fa-search"></i>
+          </button>
         </div>
         <nav>
           <ul class="nav-links">
@@ -52,9 +53,18 @@
           </ul>
         </nav>
         <div class="header-actions">
-          <a href="#account"><i class="fas fa-user"></i></a>
+          <li class="dropdown">
+            <a href="#account"><i class="fas fa-user"></i></a>
+            <ul class="dropdown-content">
+              <li><a href="registration.html">Registration</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </li>
           <a href="#wishlist"><i class="fas fa-heart"></i></a>
-          <a href="#cart" class="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+          <a href="#cart" class="cart-icon"
+            ><i class="fas fa-shopping-cart"></i
+            ><span class="cart-count">0</span></a
+          >
         </div>
       </div>
     </header>
@@ -74,7 +84,11 @@
         </div>
         <div class="category-grid">
           <div class="category-card">
-            <img src="images/clothing.jpg" alt="Luxury Clothing" class="category-image"/>
+            <img
+              src="images/clothing.jpg"
+              alt="Luxury Clothing"
+              class="category-image"
+            />
             <div class="category-content">
               <h3>Clothing</h3>
               <a href="#clothing" class="btn-outline">Explore</a>
@@ -99,7 +113,10 @@
         <div class="product-grid">
           <div class="product-card">
             <div class="product-image">
-              <img src="https://plus.unsplash.com/premium_photo-1724862979245-71e659b98366?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGx1eHVyeSUyMGZhc2hpb24lMjBpdGVtcyUyMHRvJTIwc2VsbGwlMjBwcm9kdWN0cyUyMGFuZCUyMGFjZXNzaW9yaWVzfGVufDB8fDB8fHww" alt="Luxury Product"/>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1724862979245-71e659b98366?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGx1eHVyeSUyMGZhc2hpb24lMjBpdGVtcyUyMHRvJTIwc2VsbGwlMjBwcm9kdWN0cyUyMGFuZCUyMGFjZXNzaW9yaWVzfGVufDB8fDB8fHww"
+                alt="Luxury Product"
+              />
               <div class="quick-shop">Quick View</div>
             </div>
             <div class="product-details">
@@ -117,7 +134,11 @@
           <h2>Subscribe to Our Newsletter</h2>
           <p>Be the first to know about new collections and exclusive offers</p>
           <form class="newsletter-form">
-            <input type="email" placeholder="Enter your email address" aria-label="Email address"/>
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              aria-label="Email address"
+            />
             <button type="submit" class="btn btn-primary">Subscribe</button>
           </form>
         </div>
@@ -128,7 +149,10 @@
       <div class="footer-grid">
         <div class="footer-links">
           <h4>About HDX Luxora</h4>
-          <p>Your luxury fashion destination offering premium clothing and accessories with unparalleled quality and style.</p>
+          <p>
+            Your luxury fashion destination offering premium clothing and
+            accessories with unparalleled quality and style.
+          </p>
         </div>
         <div class="footer-links">
           <h4>Quick Links</h4>
@@ -143,9 +167,21 @@
         <div class="footer-links">
           <h4>Connect with Us</h4>
           <ul>
-            <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
-            <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li>
+              <a href="https://facebook.com" target="_blank"
+                ><i class="fab fa-facebook"></i> Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank"
+                ><i class="fab fa-instagram"></i> Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank"
+                ><i class="fab fa-twitter"></i> Twitter</a
+              >
+            </li>
           </ul>
         </div>
       </div>
